@@ -1,0 +1,135 @@
+:root{
+    --corfundo: #ffffff;
+    --cortexto: #000000;
+    --filtro: invert(0%);
+    --corfundobtn: #202124;
+    --corfundobtnhover: #6b6b6b;
+    --corsecaologin: #f1f1f1;
+}
+
+:root .temaescuro{
+    --corfundo: #232c35;
+    --cortexto: #ffffff;
+    --filtro: invert(100%);
+    --corfundoHeader: rgba(28,66,132,1);
+    --corfundobtn: #ffffff;
+    --corfundobtnhover: #c4c1c1;
+    --corsecaologin: #1b1b1b85;
+}
+
+.temaclaro .headerPrincipal,
+.temaclaro .headerResponsivo,
+.temaclaro .footer{
+    background: linear-gradient(90deg, rgba(85,181,242,1) 0%, rgba(50,100,162,1) 48%, rgba(28,66,132,1) 76%);
+}
+
+.progress-bar .step .bullet{
+    border: 2px solid var(--cortexto);
+}
+
+.iconeUsu.admin{
+    filter: var(--filtro);
+}
+
+.progress-bar .step .bullet:after,
+.progress-bar .step .bullet:before{
+    background-color: var(--cortexto);
+}
+
+.secaoLogin a.botao{
+    background-color: var(--corfundobtn);
+    color: var(--corfundo);
+}
+
+.secaoLogin a.botao:hover{
+    background-color: var(--corfundobtnhover);
+}
+
+.secaoLogin .card{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+}
+
+body.temaescuro{
+    background-color: var(--corfundo);
+}
+
+.temaescuro .headerPrincipal, 
+.temaescuro .headerResponsivo,
+.temaescuro .footer{
+    background-color: var(--corfundoHeader);
+}
+
+.temaescuro .btnPesquisa{
+    background-color: rgba(28,66,132,1);
+}
+
+h1, h2, h3, h4, h5, h6, p, small, a.linkEmail, a.link, label, span, .bodyTable td{
+    color: var(--cortexto);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+.nav-tabs>li>a.nav-link.active{
+    background-color: #232c35;
+}
+
+.botaoHamburguer .icones{
+    filter: invert(100%);
+}
+img.icones ,.iconeRedesSociais, .iconesLogin{
+    filter: var(--filtro);
+}
+
+.card, .modal-header, .modal-body, .modal-footer, .modal button, .modal li, .modal .linkHeader{
+    background-color: var(--corfundo);
+    color: var(--cortexto);
+}
+
+.modalLogin button{
+    background-color: var(--corfundo);
+}
+
+.modalLogin .modal-content{
+    background-color: var(--corfundo);
+}
+
+#lua{
+    filter: invert(0%);
+}
+
+input.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+label.labelCheck{
+    background-color: #111111;
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+}
+
+label.labelCheck .ball{
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+
+    transform: translateX(0rem);
+    transition: transform 0.2s linear;
+}
+
+input.checkbox:checked + .labelCheck .ball{
+    transform: translateX(1.1rem);
+}

@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonte/Roboto/Roboto-Regular.ttf");
+}
+
+body{
+    font-family: "Roboto";
+    display: grid;
+    grid-template-rows: 6rem 1fr 8rem;
+    min-width: 100vw;
+    min-height: 100vh;
+    transition: background 0.2s linear;
+    overflow-x: hidden;
+}

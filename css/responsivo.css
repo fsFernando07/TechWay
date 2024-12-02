@@ -1,0 +1,70 @@
+@media screen and (max-width: 1200px){
+    .equipe{
+        display: flex;
+        flex-direction: column;
+    }
+    .headerResponsivo{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .headerPrincipal{
+        display: none;
+    }
+    .secaoLogin{
+        display: flex;
+        justify-content: center !important;
+    }
+    footer{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .wrapper .carousel{
+        grid-auto-columns: calc((100% / 2) - 0.5rem);
+    }
+    .headerResponsivo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerPrincipal{
+        display: none;
+    }
+    input.barPesquisa{
+        width: 20rem;
+    }
+    .equipe{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .wrapper .carousel{
+        grid-auto-columns: 100%;
+    }
+    .navHeader{
+        display: none;
+    }
+    .headerResponsivo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerPrincipal{
+        display: none;
+    }
+    .navBotao{
+        display: flex;
+        justify-content: end;
+    }
+    .equipe{
+        display: flex;
+        flex-direction: column;
+    }
+    .equipe .col{
+        display: flex;
+        justify-content: center;
+    }
+    
+}

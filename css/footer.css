@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.iconeRedesSociais{
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconeRedesSociais:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.linkFooter{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.linkFooter:hover{
+    color: rgba(85,181,242,1);
+    text-decoration: underline;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+.iconeRedesSociais.fixo{
+    filter: invert(100%);
+}

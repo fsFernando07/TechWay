@@ -1,0 +1,211 @@
+a{
+    cursor: pointer;
+    color: #55B5F2;
+}
+
+a.botao{
+    padding: 1rem 1.5rem;
+    background-color: #ffffff;
+    color: #264886;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+header a.botao{
+    font-weight: bold;
+}
+
+button.botao{
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+a.botao:hover{
+    background-color: rgba(50,100,162,1);
+    color: #ffffff;
+}
+
+a.botao.sair, button.botao.sair{
+    color: #ffffff;
+    background-color: #c00808;
+}
+
+a.botao.sair:hover, button.botao.sair:hover{
+    background-color: #890707;
+}
+
+.iconeUsu{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 100%;
+    filter: invert(100%);
+}
+
+.iconeUsu.Usu{
+    filter: invert(0%);
+}
+
+.secaoLogin a.botao{
+    padding: 0.5rem 1rem;
+}
+
+.secaoLogin a.botao:hover{
+    transition: all .2s ease-in-out;
+}
+
+.logo{
+    width: 15rem;
+    object-fit: cover;
+}
+
+.logoArredondada{
+    width: 6rem;
+    object-fit: cover;
+}
+
+.logoArredondadaSplash{
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+}
+
+.headerPrincipal{
+    padding: 0 9rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.headerResponsivo{
+    display: none;
+}
+
+.headerIndex{
+    background: linear-gradient(90deg, rgba(85,181,242,1) 0%, rgba(50,100,162,1) 48%, rgba(28,66,132,1) 76%);
+}
+
+.headerPrincipal .linkHeader{
+    color: #ffffff;
+    transition: all .2s;
+}
+
+.headerPrincipal .linkHeader:hover{
+    color: rgba(85,181,242,1);
+}
+
+.botaoHamburguer , .close{
+    border: none;
+}
+
+.close{
+    background-color: #ffffff;
+}
+
+.close span{
+    font-size: 2rem;
+}
+
+.modal{
+    text-align: center;
+}
+
+.modalMenu{
+    text-align: left;
+}
+
+.modal-content, .modal-dialog{
+    border-radius: 2rem;
+}
+
+.modalMenu .modal-body,
+.modalLogin .modal-body{
+    border-radius: 0 0 1rem 1rem;
+    border: none;
+}
+
+.modalMenu .modal-content ,
+.modalMenu .modal-dialog{
+    width: 20rem;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.modalLogin .modal-header{
+    border: none;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+}
+
+.modalLogin .modal-body{
+    margin-bottom: 1rem;
+}
+
+.modalLogin p{
+    font-size: 1.125rem;
+}
+
+.modalLogin p.erroLog{
+    text-align: start;
+    padding-left: 1rem;
+}
+
+.modalLogin .modal-header button{
+    z-index: 1;
+}
+
+.list-group-item:hover{
+    background-color: #2c2c2c2c;
+}
+
+.botaoEmail{
+    background-color: #202124;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    align-items: center;
+    padding: 0.1rem;
+    border-radius: 20rem;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+}
+
+.botaoEmail:hover{
+    background-color: #202124a2;
+}
+
+.temaescuro .botaoEmail:hover{
+    background-color: #645d5767;
+}
+
+.botaoEmail p{
+    color: #e8eaed;
+    text-align: start;
+}
+
+.login button{
+    background: none;
+}
+
+.botaoEmail img{
+    width: 2.35rem;
+    height: 2.35rem;
+}
+
+.iconCerErr{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
